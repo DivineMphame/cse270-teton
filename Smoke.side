@@ -1,0 +1,40 @@
+{
+  "id": "882b6bfb-3b88-40ca-8780-87ea21787255",
+  "version": "2.0",
+  "name": "Smoke Test",
+  "url": "http://127.0.0.1:5500/teton/1.6/index.html",
+  "tests": [{
+    "id": "31ad9586-0157-4b6e-82d3-5cf3b17cf385",
+    "name": "Directory Page",
+    "commands": []
+  }, {
+    "id": "b2a446ad-9353-4763-90c6-44976cff3d5d",
+    "name": "Home Page",
+    "commands": []
+  }, {
+    "id": "e21b6ac6-7229-4fc9-b407-65a751c2c012",
+    "name": "Join Page",
+    "commands": []
+  }, {
+    "id": "346dc25c-e413-488f-af05-7feded0cbcb1",
+    "name": "Admin Page",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "56ee9893-0a82-44ff-9fcd-65a2dc782317",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "13697ef6-03eb-4dbd-be36-f886acdaeedd",
+    "name": "Smoke Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["346dc25c-e413-488f-af05-7feded0cbcb1", "31ad9586-0157-4b6e-82d3-5cf3b17cf385", "b2a446ad-9353-4763-90c6-44976cff3d5d", "e21b6ac6-7229-4fc9-b407-65a751c2c012"]
+  }],
+  "urls": ["http://127.0.0.1:5500/teton/1.6/index.html"],
+  "plugins": []
+}
